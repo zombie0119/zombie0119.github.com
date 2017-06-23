@@ -149,10 +149,10 @@ iframe{border:none;}
 /*第三屏*/
 .page3_box{padding-top:40px;}
 .page3_box .showbox{width:1200px;height:100%; overflow:hidden;margin:0 auto;}
-.page3_box .showbox>li{width:50%;height:50%;float:left; overflow:hidden; position:relative;}
-.page3_box .showbox>li img{width:100%; transition:1s all ease;-webkit-transition:1s all ease;}
+.page3_box .showbox>li{width:50%;height:250px;float:left; overflow:hidden; position:relative;}
+.page3_box .showbox>li img{width:100%; height: 100%;transition:1s all ease;-webkit-transition:1s all ease;}
 .page3_box .showbox>li:hover img{ transform:scale(2,2);-webkit-transform:scale(2,2); transition:1s all ease;-webkit-transition:1s all ease;}
-.page3_box .showbox>li .mask{width:100%; height:100%;position:absolute; left:0; top:0;display:none; line-height:400px; text-align:center;}
+.page3_box .showbox>li .mask{width:100%; height:100%;position:absolute; left:0; top:0;display:none; line-height:250px; text-align:center;}
 .page3_box .showbox>li .mask a{color:#ffffff; font-size:40px;}
 .page3_box .showbox>li .color1{background:rgba(153,0,0,0.8);}
 .page3_box .showbox>li .color2{background:rgba(255,153,0,0.8);}
